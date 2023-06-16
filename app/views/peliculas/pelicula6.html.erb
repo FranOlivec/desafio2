@@ -1,2 +1,68 @@
-<h1>Película 6</h1>
-<p>Esta es la página de la Película 6.</p>
+<div class="row">
+    <div class="col-md-9 order-2 scrollable-column">
+        <h1>Los Otros</h1>
+        <br>
+        <div class="container">
+            <%= image_tag('fulls/06.jpg', width: 400, height: 300)%>
+        </div>
+        
+        <br>
+        <br>
+        <p>Los otros (en inglés The others) es una película hispano-estadounidense1​ de 2001 dirigida por el hispano-chileno Alejandro Amenábar y protagonizada por Nicole Kidman. Ganó ocho de los quince Goya a los que estaba nominada, incluyendo Mejor sonido, Mejor fotografía, Mejor Dirección y Mejor Película. Junto a Días contados (1994) y Celda 211 (2009) (también con 8 galardones), es la cuarta en la lista de películas más galardonadas en los Goya.</p>
+
+        <hr>
+        
+
+        <h3 id="argumento">Argumento</h3> <br>
+        
+        <p> Es el año 1945 y recién finalizada la Segunda Guerra Mundial, Grace (Nicole Kidman) espera el regreso de su esposo, que se encuentra combatiendo en la guerra. Grace es una mujer de fuertes creencias religiosas que vive en un apartado caserón situado en la Isla de Jersey en el Canal de la Mancha, con sus hijos Anne (Alakina Mann) y Nicholas (James Bentley), quienes sufren una extraña enfermedad denominada fotosensibilidad, que les impide mantener contacto con la luz.
+
+            Como respuesta a un anuncio de Grace solicitando los servicios de limpieza de la casa y cuidado de los niños, un día llegan los nuevos sirvientes: la señora Bertha Mills (Fionnula Flanagan) y el señor Edmund Tuttle (Eric Sykes), junto a una joven muda llamada Lydia (Elaine Cassidy). Puesto que los sirvientes ya habían trabajado años atrás en la casa y ante la necesidad de alguien que se ocupara de los quehaceres, Grace acepta contratarlos.
+            
+            Mientras va enseñando a los nuevos huéspedes la mansión, Grace advierte de las estrictas normas que han de seguir, especialmente de una: todas las habitaciones deben permanecer en penumbra, por eso no deben abrir una puerta sin haber cerrado la anterior. Para ello les hace entrega de un juego de 15 llaves que abren las 50 puertas que hay en la casa. Otra de las normas que han de seguir rigurosamente es la de cerrar las cortinas de las habitaciones, de tal manera que no entre ni un haz de luz, ya que Anne y Nicholas son fotosensibles y podrían llegar incluso a morir por ello, según afirma Grace.
+            
+            El día a día en la casa transcurre tranquilamente entre las tareas del hogar y el jardín, y los estudios severamente religiosos que imparte Grace a sus hijos, que siguen esperando el regreso de su esposo y padre. Entre tanto silencio, Grace se siente temerosa de que cualquier sobresalto pueda afectar a sus hijos; los cuales, especialmente la niña, advierten a la madre de que allí viven fantasmas. Será entonces, y tras percibir extraños ruidos, cuando Grace intente averiguar lo que ocurre en la misteriosa mansión. </p>
+
+        <hr>
+    
+
+        <h3 id="reparto">Reparto</h3> <br>
+        <p>Nicole Kidman como Grace Stewart. <br>
+            Fionnula Flanagan como Bertha Mills. <br>
+            Christopher Eccleston como Charles Stewart. <br>
+            Alakina Mann como Anne Stewart. <br>
+            James Bentley como Nicholas Stewart. <br>
+            Eric Sykes como Edmund Tuttle. <br>
+            Elaine Cassidy como Lydia. <br>
+            Renée Asherson como la anciana. <br>
+            Gordon Reid como el asistente. <br>
+            Keith Allen como el Sr. Marlish. <br>
+            Michelle Fairley como la Sra. Marlish. <br>
+            Alexander Vince como Victor Marlish. <br>
+            Ricardo López como el segundo asistente. <br>
+            Aldo Grilo como el jardinero. <br></p>
+
+        <hr>
+        
+
+        <h3 id="produccion">Producción</h3> <br>
+        <p>Tras la visualización del segundo filme de Amenábar, Abre los ojos, el actor estadounidense Tom Cruise quedó encantado con la historia por lo que decidió hacer una versión americana. Cruise, que quería explotar las habilidades del director de Tesis, le propuso dirigir la adaptación titulada Vanilla Sky, pero él se negó en redondo. Cuando le llegó el proyecto de Los otros, Cruise compró los derechos y Amenábar sí que aceptó que Cruise y los hermanos Weinstein de Miramax produjeran su película. Impuso una condición: rodar en España con su equipo.5​ Las localizaciones elegidas para el rodaje fueron Las Fraguas, en Cantabria, y Madrid.
+
+            Una referencia en la película son las obras de Alfred Hitchcock, hasta el hecho de que Amenábar convierte a Nicole Kidman en una rubia asustada, un poco a lo Grace Kelly, que nos recuerda a las célebres rubias que aparecían en sus películas. También Amenábar hace referencia a uno de los diálogos de su propia película Tesis, cuando Anne le dice a su hermano «Me llamo Anne y estoy caminando. Estoy caminando y me llamo Anne».
+            
+            Aunque la película no se inspira en ningún relato, está influenciada por la obra Otra vuelta de tuerca de Henry James. Amenábar no ha negado este parecido y sufrió diversas bromas al ser nominado al BAFTA al mejor guion original aunque el argumento de la película y la novela no tengan mucho en común. El argumento de la película también tiene semejanzas con el cuento Ellos ("They", publicado en Traffics and Discoveries en 1904) de Rudyard Kipling. El encargado de la realización de la fotografía, que tiene un papel fundamental en la película, fue Javier Aguirresarobe. De hecho, en 1959 se rodó en Estados Unidos una versión para la televisión de la obra de Henry James titulada "The Others"</p>
+
+        <hr>
+    </div>
+    <div class="col-md-3 order-1 align-self-start mt-4">
+        <h3>Tabla de Contenido</h3>
+        <ul class = "list">
+            <li><%= link_to 'Argumento', '#argumento' %></li>
+            <li><%= link_to 'Reparto', '#reparto' %></li>
+            <li><%= link_to 'Producción', '#produccion' %></li>
+            <br>
+            <%= link_to "Volver al Inicio", "/" %>
+        </ul>
+    </div>
+
+</div>

@@ -11,10 +11,10 @@ Rails.application.routes.draw do
   get '/kill_bill_volumen_1', to: 'peliculas#pelicula5'
   get '/los_otros', to: 'peliculas#pelicula6'
   get '/the_matrix', to: 'peliculas#pelicula7'
-  get '/bastardos_sin_loria', to: 'peliculas#pelicula8'
+  get '/bastardos_sin_gloria', to: 'peliculas#pelicula8'
   get '/perros_de_la_calle', to: 'peliculas#pelicula9'
   get '/pulp_fiction', to: 'peliculas#pelicula10'
   get '/el_padrino', to: 'peliculas#pelicula11'
-  get '/el_silencio_de_los_nocentes', to: 'peliculas#pelicula12'
+  get '/el_silencio_de_los_inocentes', to: 'peliculas#pelicula12'
 
 end

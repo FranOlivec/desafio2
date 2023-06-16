@@ -1,9 +1,9 @@
 <div class="row">
-    <div class="col-md-9 order-2">
+    <div class="col-md-9 order-2 scrollable-column">
         <h1>El Cisne Negro</h1>
         <br>
         <div class="container">
-            <%= image_tag('fulls/01.jpg', width: 300, height: 200)%>
+            <%= image_tag('fulls/01.jpg', width: 400, height: 300)%>
         </div>
         
         <br>
@@ -167,7 +167,7 @@
         <hr>
         
 
-        <h3 id="desarrollo_y_rodaje">Desarrollo y rodaje</h3> <br>
+        <h3 id="desarrollo_y_rodaje">Desarrollo y Rodaje</h3> <br>
         <p>Aronofsky y Portman discutieron acerca de un film de ballet en el año 2000, aunque el guion no estaba aún
             escrito.​ Él le contó acerca de la escena de amor entre las bailarinas competidoras y Portman recuerda:
             "Pensé que eso era muy interesante porque esta película es, en muchas formas, una exploración del ego de un
@@ -188,13 +188,16 @@
             York en Puchase.5​ La banda sonora fue compuesta por Clint Mansell, colaborador durante años de Aronofsky,
             que la armó usando elementos de El lago de los cisnes. </p>
     </div>
-    <div class="col-md-3 order-1 align-self-center">
+    <div id="tabla_contenido" class="col-md-3 order-1 align-self-start mt-4">
+        <h3>Tabla de Contenido</h3>
         <ul class = "list">
             <li><%= link_to 'Argumento', '#argumento' %></li>
             <li><%= link_to 'Reparto', '#reparto' %></li>
             <li><%= link_to 'Evolución', '#evolucion' %></li>
-            <li><%= link_to 'Concepción', '#concpecion' %></li>
-            <li><%= link_to 'Desarrollo y Rodaje', '#rodaje_y_desarrollo' %></li>
+            <li><%= link_to 'Concepción', '#concepcion' %></li>
+            <li><%= link_to 'Desarrollo y Rodaje', '#desarrollo_y_rodaje' %></li>
+            <br>
+            <%= link_to "Volver al Inicio", "/" %>
         </ul>
     </div>
 
